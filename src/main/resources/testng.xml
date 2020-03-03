@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="v2workflowTest">
+    
+  <test name="v2">
+   <classes>   
+      <class name="com.v2Workflow.testcases.VerifySignInTest"></class>
+       <class name="com.v2Workflow.testcases.StartProjectFlowTest"></class>
+       <class name="com.v2Workflow.testcases.ProjectRegistrationFlowTest"></class>
+       <class name="com.v2Workflow.testcases.ProjectRegistrationPaymentTest"></class>
+       <class name="com.v2Workflow.testcases.ScorecardFlowTest"></class>
+	   <class name="com.v2Workflow.testcases.TeamFlowTest"></class>
+	    
+	</classes>   
+	</test>
+</suite>

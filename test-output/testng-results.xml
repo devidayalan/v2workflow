@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-03T12:14:22Z" name="Default suite" finished-at="2020-03-03T12:15:06Z" duration-ms="44734">
+    <groups>
+    </groups>
+    <test started-at="2020-03-03T12:14:22Z" name="Default test" finished-at="2020-03-03T12:15:06Z" duration-ms="44734">
+      <class name="com.v2Workflow.testcases.ScorecardFlowTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.v2Workflow.testcases.ScorecardFlowTest@399c4be1]" started-at="2020-03-03T17:44:22Z" name="setup" finished-at="2020-03-03T17:44:39Z" duration-ms="17541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ProjectScorecardFlow()[pri:0, instance:com.v2Workflow.testcases.ScorecardFlowTest@399c4be1]" started-at="2020-03-03T17:44:39Z" name="ProjectScorecardFlow" finished-at="2020-03-03T17:45:06Z" duration-ms="26576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProjectScorecardFlow -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.v2Workflow.testcases.ScorecardFlowTest@399c4be1]" started-at="2020-03-03T17:45:06Z" name="getResult" finished-at="2020-03-03T17:45:06Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProjectScorecardFlow status=SUCCESS method=ScorecardFlowTest.ProjectScorecardFlow()[pri:0, instance:com.v2Workflow.testcases.ScorecardFlowTest@399c4be1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.v2Workflow.testcases.ScorecardFlowTest@399c4be1]" started-at="2020-03-03T17:45:06Z" name="end" finished-at="2020-03-03T17:45:06Z" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.v2Workflow.testcases.ScorecardFlowTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

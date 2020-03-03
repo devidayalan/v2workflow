@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [v2workflowTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="v2(failed)">
+    <parameter name="SignInSheet" value="SignIn"/>
+    <parameter name="environment" value="qa"/>
+    <parameter name="ProjectRegisterSheet" value="ProjectRegister"/>
+    <parameter name="PaymentSheet" value="Payment"/>
+    <parameter name="StartProjectSheet" value="StartProject"/>
+    <parameter name="rowNum" value="2"/>
+    <parameter name="TeamSheet" value="Team"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.v2Workflow.testcases.TeamFlowTest">
+        <methods>
+          <include name="CheckTeamFlowTest" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.v2Workflow.testcases.TeamFlowTest -->
+    </classes>
+  </test> <!-- v2(failed) -->
+</suite> <!-- Failed suite [v2workflowTest] -->
